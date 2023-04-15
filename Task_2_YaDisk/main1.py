@@ -54,6 +54,6 @@ if __name__ == '__main__':
     patch_to_folder = 'folder1'
     filename = 'PD_79_Mikhayloff.txt'
     path_to_file = f'{patch_to_folder}/{filename}'
-    token = "y0_AgAAAAAAUzO7AADLWwAAAADgU2u6YHDfksgdT-SrIGZJI_yRlvjFopA"
+    token = ""
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file, filename)
