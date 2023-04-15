@@ -37,6 +37,6 @@ if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
 
     path_to_file = 'PD_79_Mikhayloff_2.txt'
-    token = "y0_AgAAAAAAUzO7AADLWwAAAADgU2u6YHDfksgdT-SrIGZJI_yRlvjFopA"
+    token = ""
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
